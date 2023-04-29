@@ -1,0 +1,23 @@
+body, html{
+   font-family: 'Roboto', sans-serif; 
+}
+#cursos a.destaque{
+    overflow: hidden;
+}
+#cursos a.destaque img{
+    display: block;
+    border-radius: 50px;
+    text-align: center;
+    padding: 20px;
+    color: black;
+    text-decoration: none;
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+#cursos a.destaque:hover img{
+    -moz-transform: scale(1.06);
+    -webkit-transform: scale(1.06);
+    transform: scale(1.06);
+}

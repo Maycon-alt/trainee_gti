@@ -1,0 +1,6 @@
+a{
+    color: var(--primario);
+}
+a:hover{
+    color: var(--secundario);
+}
