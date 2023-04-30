@@ -21,3 +21,10 @@ body, html{
     -webkit-transform: scale(1.06);
     transform: scale(1.06);
 }
+#sobre a.redondo img{
+    width: 150px;
+    height: 150px;
+    border-color: blue;
+    border-width: 20px;
+    border-radius: 50%;
+}
