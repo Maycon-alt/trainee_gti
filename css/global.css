@@ -18,4 +18,13 @@ a{
 a:hover{
     color: var(--primario);
 }
+.fonte{
+    font-size: 10px;
+}
+.ajuste{
+    text-align: right;
+}
+.ajuste2{
+    text-align: right;
+}
 
