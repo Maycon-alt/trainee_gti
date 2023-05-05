@@ -46,4 +46,12 @@
     padding-top: 30px;
     justify-content: center;
   }
+
+  .bground {
+      min-height: 45vh;
+  }
+
+  .muitext {
+      font-size: calc(1.2rem + 3.3vw);
+  }
 }
