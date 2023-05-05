@@ -1,6 +1,54 @@
-body, html{
-   font-family: 'Roboto', sans-serif; 
+body, html {
+    font-family: 'Roboto', sans-serif;
 }
+
+.perfil img{
+    width: 180px;
+    border-radius: 50%;
+}
+
+#equipe {
+    background-color: #EFEDED;
+}
+
+.logos{
+    width: 64px;
+}
+
+.redes img{
+    width: 48px;
+}
+
+.fcontatos {
+    width:auto;
+}
+
+.muitext{
+    font-size: 3rem;
+}
+
+.bground {
+    background-size: cover;
+    min-height: 60vh;
+    position: relative;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0,0,0,.2);
+}
+
+#enviar {
+    color: #FFFFFF;
+    background-color: #FFC700;
+    border-color: transparent;
+}
+
+#final {
+    background-color: #EFEDED;
+}
+
+.copyr {
+    font-size-adjust: 12px;
+}
+
 #cursos a.destaque{
     overflow: hidden;
 }
@@ -28,4 +76,10 @@ body, html{
     border-width: 100px;
     border-radius: 50%;
     text-align: center;
+}
+
+.redes:hover img{
+    -moz-transform: scale(1.06);
+    -webkit-transform: scale(1.06);
+    transform: scale(1.06);
 }

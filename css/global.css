@@ -13,20 +13,9 @@ h1,h2,h3,h4,h5,h6 {
 }
 a{
     color: var(--blacki);
+    text-decoration: none;
 }
 a:hover{
     color: var(--primario);
 }
-.line{
-    background-color: red;
-    width: 5px;
-    height: 200px;
-}
-.barco{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-}
+
