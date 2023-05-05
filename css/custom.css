@@ -49,8 +49,9 @@ body, html {
     font-size-adjust: 12px;
 }
 
-#cursos a.destaque{
+#cursos{
     overflow: hidden;
+    background-color: #EFEDED;
 }
 #cursos a.destaque img{
     display: block;
