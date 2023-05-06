@@ -27,4 +27,23 @@ a:hover{
 .ajuste2{
     text-align: right;
 }
+.line{
+    background-color: red;
+    /*background-position: center;
+    background-repeat: repeat-y;
+    background-size: cover;*/
+    padding: 10px 5px 40px;
+}
+.barco{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*position: absolute;
+    height: 100%;
+    width: 100%;*/
+    z-index: 1;
+}
+.vasco{
+    z-index: 2;
+}
 
